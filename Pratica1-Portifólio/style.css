@@ -1,0 +1,152 @@
+body{
+    background-color: #131313;
+    padding: 20px;
+}
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 1.5px 1px black;
+}
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.container{
+    display: grid;
+    padding: 0px;
+}
+.subTitle-yellow{
+    margin-top: 40px;
+    color: yellowgreen;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.342);
+    text-decoration-style: double;
+}
+.subTitle-black{
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.342);
+    text-decoration-style: double;
+}
+.text-yellow{
+    color: yellowgreen;
+}
+.ex{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    text-align: center;
+    width: 33.3%;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    margin-right: 20px;
+}
+#menu{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+#menu #nome{
+    text-align: center;
+    width: 20%;
+}
+#menu #list{
+    width: 60%;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin-top: 0px;
+    text-align:right;
+    list-style-type: none;
+}
+#menu li{
+    display:inline-block;
+    margin-left: 20px;
+    color: beige;
+}
+#menu #guarulhos{
+    text-align: center;
+    width: 20%;
+}
+#inicio{
+    margin: 100px 30% 150px 30%;
+    text-align: center;
+}
+h1{
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+#inicio #line-gray{
+    color: gray;
+}
+#contact{
+    list-style-type: none;
+    margin-bottom: 0px; 
+    padding: 0px;
+    width:  auto;
+    height: auto;
+}
+#contact li{
+    display: inline-block;
+    background-color: beige;
+    border-radius: 100%;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+}
+#contact i{
+    padding: 20%;
+}
+#perfil{
+    display: grid;
+}
+#avatar{
+    display: flex;
+    flex-direction: row;
+}
+#avatar img{
+    width: 40%;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#avatar button{
+    background-color: yellowgreen;
+    border: 1px solid white;
+    border-radius: 200px;
+    height: 45px;
+    width: 180px;
+    margin-top: 20px;
+}
+#avatar h3{
+    text-align: center;
+    margin: 0px;
+}
+.card i{
+    font-size: 45px;
+}
+.card p{
+    padding: 0px 20px 0px 20px;
+}
+.card h2{
+    text-decoration-style:solid;
+}
+#avatar li{
+    color: white;
+}
