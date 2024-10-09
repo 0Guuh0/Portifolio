@@ -1,3 +1,3 @@
 # Portifolio
 Primeiro-Portifolio
-site:
+site: https://2portifolio2.netlify.app
