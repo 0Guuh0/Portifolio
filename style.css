@@ -1,6 +1,8 @@
 body{
     background-color: #131313;
-    padding: 20px;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
 }
 h1{
     font-family: "Poppins", sans-serif;
@@ -24,8 +26,14 @@ p{
     font-weight: 700;
     font-style: normal;
 }
+a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
 .container{
     display: grid;
+    width: 100%;
     padding: 0px;
 }
 .subTitle-yellow{
@@ -55,12 +63,16 @@ p{
     text-align: center;
     width: 33.3%;
     border: 1px solid rgba(255, 255, 255, 0.342);
-    margin-right: 20px;
+    margin: 20px;
+    padding-top: 20px;
 }
 #menu{
+    margin-top: 0px;
+    background-color: #131313;
     display:flex;
+    position: fixed;
     flex-direction: row;
-    width: 100%;
+    width: 1297px;
 }
 #menu #nome{
     text-align: center;
@@ -77,14 +89,22 @@ p{
 #menu li{
     display:inline-block;
     margin-left: 20px;
-    color: beige;
+}
+#menu a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 200px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #menu #guarulhos{
     text-align: center;
     width: 20%;
 }
 #inicio{
-    margin: 100px 30% 150px 30%;
+    margin: 100px 390px 150px 390px;
     text-align: center;
 }
 h1{
@@ -120,8 +140,10 @@ h1{
 #avatar{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 #avatar img{
+    border: 1px solid rgba(255, 255, 255, 0.342);
     width: 40%;
     margin-right: 20px;
     margin-left: 20px;
@@ -149,4 +171,8 @@ h1{
 }
 #avatar li{
     color: white;
+}
+#avatar #informacoes{
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.342);
 }
